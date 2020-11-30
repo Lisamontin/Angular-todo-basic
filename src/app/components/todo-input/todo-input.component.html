@@ -1,0 +1,5 @@
+
+<div class="input-div">
+  <input type="text" #taskInput (change)="updateTaskInput(taskInput.value)" [value]="inputFieldValue">
+  <button type="button" (click)="addNewTodo(taskInput.value)" class="input-btn">Add</button>
+</div>

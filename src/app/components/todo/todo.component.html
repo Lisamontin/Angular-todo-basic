@@ -1,0 +1,9 @@
+<h1>Lets do it!</h1>
+
+<div class="todo-box">
+  <!-- addTask, by me created event, comes from @output -->
+  <app-todo-input (addTask)="addTodo($event)" ></app-todo-input>
+
+  <!-- [todo] comes from @input -->
+  <app-todo-item *ngFor="let task of todoList" [todo]="task" (removeTask)="deleteTodo($event)"></app-todo-item> 
+</div> 

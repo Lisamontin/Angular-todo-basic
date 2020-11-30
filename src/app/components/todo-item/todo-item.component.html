@@ -1,0 +1,10 @@
+
+<div class="task-div">
+  <ul>
+    <input (change)="toggle(todo)" type="checkbox" class="checkbox">
+      <li [style.text-decoration]="lineThrough">
+        {{todo.task}}
+      </li>
+      <button (click)="deleteTodo()" (removeTask)="deleteTodo()" class="btn">x</button>
+  </ul>
+</div>

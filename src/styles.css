@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+
+ body {
+   background-color: #333;
+   letter-spacing: 1px;
+   /* text-transform: uppercase; */
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.699);
+    margin: 100px 0 50px 0;
+ }
+
+ .btn {
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  position: inline;
+  display: inline-flex;
+  width: 25%;
+  justify-content: space-between;
+  padding: 0%;
+}
+
+li {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+input {
+  margin: 0 0 25px 0;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 25%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgba(34, 243, 222, 0.603);
+  outline: none;
+}
+
+.checkbox {
+  width: fit-content;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.input-btn {
+  padding: 12px;
+  background: #555;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+}
+
+.input-div {
+  text-align: center;
+}
+
+.task-div {
+  text-align: center;
+}
